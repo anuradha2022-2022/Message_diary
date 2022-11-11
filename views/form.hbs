@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="POST" action="/new">
+      <h1>Get Your Diary Here!</h1>
+      <input
+        name="user"
+        id="username"
+        placeholder="Enter your Name"
+        type="text"
+        autocomplete="off"
+      />
+      <textarea
+        id="description"
+        name="text"
+        placeholder="Enter your Message"
+        rows="2"
+        cols="20"
+        wrap="hard"
+      ></textarea>
+      <button type="submit"> Submit</button>
+      <a href="/"> Back to Homepage </a>
+    </form>
+  </body>
+</html>
