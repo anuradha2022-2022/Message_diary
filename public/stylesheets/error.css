@@ -1,0 +1,11 @@
+body {
+  background-image: url("/images/pandaimage.jpg");
+  width: 100vw;
+  height: 95vh;
+  background-size: contain;
+  color: white;
+  text-align: center;
+  margin-top: 78px;
+  font-size: 34px;
+}
+
